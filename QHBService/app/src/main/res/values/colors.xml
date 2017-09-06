@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EB4223</color>
+    <color name="colorPrimaryDark">#EB4223</color>
+    <color name="colorAccent">#FFCF59</color>
+
+    <color name="white_100">#FFFFFF</color><!--背景色-->
+    <!--背景对比色-->
+    <color name="white_96">#F5F5F5</color><!--背景对比色-->
+    <color name="white_94">#F0F0F0</color><!-- 分割线颜色-->
+    <color name="white_86">#dcdcdc</color><!-- 分割线颜色-->
+    <color name="white_74">#b5b5b5</color><!-- 文字浅色-->
+    <color name="white_46">#757575</color><!--文字颜色-->
+    <color name="white_30">#464646</color><!--标题文字颜色深色-->
+    <color name="white_0">#000000</color><!--纯黑色-->
+
+    <color name="black_54">#757575</color><!--文字颜色-->
+    <color name="black_70">#464646</color><!--标题文字颜色深色-->
+    <color name="black_100">#000000</color><!--纯黑色-->
+
+    <color name="black_transparent_20">#34000000</color>
+    <color name="black_transparent_30">#4c000000</color>
+    <color name="black_transparent_35">#59000000</color>
+    <!--半透明黑色-->
+    <color name="black_transparent_60">#96000000</color>
+    <color name="black_transparent_85">#DE000000</color>
+
+    <color name="blue">#10AFF0</color>
+</resources>

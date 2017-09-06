@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="NavigationTopBar"
+        android:name="com.tencent.newhb.grabings.widget.NavigationTopBar"
+        tools:layout="@layout/navigation_top_bar"/>
+
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="@color/colorPrimary" android:background="#ffeaeaea" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="一，怎么抢红包啊" />
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="        这个问题问得好，主界面的招财猫举起了双手的时候就可以打开微信或者QQ按Home键切换到后台，然后赶紧喊你的微信QQ小伙伴发红包吧，见证奇迹的时刻就要来了！ " />
+            <TextView android:textSize="18.0sp" android:textColor="@color/colorPrimary" android:background="#ffeaeaea" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="二，发现无法抢到红包怎么办" />
+            <Button android:textSize="15.0sp" android:id="@+id/open_service_btn" android:background="#ffeaeaea" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/helper_1" />
+            <Button android:textSize="15.0sp" android:id="@+id/open_set_btn" android:background="#ffeaeaea" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="2.查看抢红包开关是否开启" />
+            <Button android:textSize="15.0sp" android:id="@+id/open_wx_btn" android:background="#ffeaeaea" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="3.打开微信进入聊天页\n点开右上角人物头像\n查看消息免打扰开关是否关闭需关闭消息免打扰才能自动抢红包\nQQ同理" />
+            <Button android:textSize="15.0sp" android:id="@+id/open_unlock_btn" android:background="#ffeaeaea" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="4.已开通息屏抢红包功能\n点击查看锁屏是否为\n图案、数字或者密码锁屏\n将锁屏设置为滑动锁屏或者无锁屏" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/colorPrimary" android:background="#ffeaeaea" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="三，怎么样提高抢大包概率 " />
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="        开启抢大包和手气最佳VIP功能抢到的大包概率最高" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/colorPrimary" android:background="#ffeaeaea" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="四，为什么软件自动关闭导致不抢红包 " />
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/helper_2" android:id="@+id/helper_2_text"/>
+            <TextView android:textSize="18.0sp" android:textColor="@color/colorPrimary" android:background="#ffeaeaea" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="五，免责申明 " />
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/helper_3" android:id="@+id/helper_3_text"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

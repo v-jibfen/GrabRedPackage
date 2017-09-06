@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_setting_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white_100">
+
+    <TextView
+        android:id="@+id/item_setting_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="永久开启SVIP全部功能"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="12dp"
+        android:textColor="@color/white_30"/>
+
+    <Spinner
+        android:id="@+id/item_setting_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_setting_type"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:visibility="gone">
+
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/action_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp">
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/item_setting_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:background="@color/white_96"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+</RelativeLayout>

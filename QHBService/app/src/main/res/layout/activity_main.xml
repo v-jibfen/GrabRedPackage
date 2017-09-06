@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:id="@+id/top_layout_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/total_counts_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white_100"
+                    android:text="@string/package_counts_text"
+                    android:layout_marginTop="8dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+                    <TextView
+                        android:id="@+id/total_counts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="24sp"
+                        android:textColor="@color/white_100" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/package_counts_unit"
+                        android:paddingLeft="2dp"
+                        android:textColor="@color/colorAccent"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/total_money_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white_100"
+                    android:text="@string/package_total_money_text"
+                    android:layout_marginTop="8dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+                    <TextView
+                        android:id="@+id/total_moneys"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15.80"
+                        android:textSize="24sp"
+                        android:textColor="@color/white_100" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/package_total_money_unit"
+                        android:paddingLeft="2dp"
+                        android:textColor="@color/colorAccent"/>
+                    </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/grab_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <kr.pe.burt.android.lib.faimageview.FAImageView
+        android:id="@+id/animation_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/speed_button"
+                android:layout_width="210dp"
+                android:layout_height="48dp"
+                android:text="@string/speed_text"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_yellow_button_bg"
+                android:layout_marginTop="20dp"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/setting_button"-->
+                <!--android:layout_width="210dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:text="@string/setting_text"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textSize="16sp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@drawable/round_yellow_button_bg"-->
+                <!--android:layout_marginTop="10dp"/>-->
+
+            <Button
+                android:id="@+id/log_button"
+                android:layout_width="210dp"
+                android:layout_height="48dp"
+                android:text="@string/log_text"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_yellow_button_bg"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_width="210dp"
+                android:layout_height="48dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_yellow_button_bg"
+                android:text="@string/share_text"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/help_button"
+                android:layout_width="210dp"
+                android:layout_height="48dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_yellow_button_bg"
+                android:text="@string/help_text"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

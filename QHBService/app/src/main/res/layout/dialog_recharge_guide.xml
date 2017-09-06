@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_white_bg">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户提醒"
+        android:textColor="@color/white_30"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_86"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="很遗憾你已与红包擦肩而过"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="开通SVIP会员"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="可以更快的抢到任意红包哦！"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/action_button"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white_100"
+        android:text="前往开通"
+        android:background="@drawable/round_red_button_bg"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2017抢红包</string>
+    <string name="app_package_name">com.tencent.newhb.grabings</string>
+    <string name="accessibility_description">启动抢红包服务，支持微信和QQ</string>
+    <string name="open_service_title">需要开启辅助服务正常使用</string>
+    <string name="open_service_button">打开辅助服务</string>
+    <string name="open_notify_service">打开通知栏服务</string>
+    <string name="check_update">检查更新</string>
+    <string name="share">分享</string>
+    <string name="qq_settings">QQ设置</string>
+    <string name="wechat_settings">微信设置</string>
+    <string name="notify_settings">红包提醒设置</string>
+
+    <string name="share_title">抢红包啦！</string>
+
+    <string name="share_content">最专业的微信,QQ抢红包神器，逢红包必抢！再也不用担心过年大红包抢不到了！链接: %s</string>
+
+    <string name="follow_preference_title">关注微信</string>
+    <string name="follow_preference_summary">了解我最新的开源资讯动态</string>
+
+    <string name="donate_title">打赏开发者</string>
+    <string name="donate_summary">打赏我哦</string>
+
+    <string name="after_open_hongbao">拆红包</string>
+    <string name="after_open_see">看看大家的手气(仅支持微信6.3.8版本以下)</string>
+    <string name="after_open_none">静静地看着</string>
+
+    <string name="after_get_back_home">返回桌面</string>
+    <string name="after_get_none">静静地看着</string>
+
+    <string name="wx_mode_0">自动抢</string>
+    <string name="wx_mode_1">抢单聊红包，群聊红包只通知</string>
+    <string name="wx_mode_2">抢群聊红包，单聊红包只通知</string>
+    <string name="wx_mode_3">通知手动抢(防封号)</string>
+
+    <string name="skip">跳过 %d</string>
+
+    <!-- MainActivity-->
+    <string name="open_service_text">开启服务</string>
+    <string name="speed_text">抢红包加速</string>
+    <string name="setting_text">开通SVIP</string>
+    <string name="log_text">红包记录</string>
+    <string name="share_text">分享加速</string>
+    <string name="help_text">使用帮助</string>
+    <string name="opening_service_text">抢红包中。。。</string>
+    <string name="open_service_reminder_text">找到[%s]，开启服务</string>
+    <string name="total_count_text">%s</string>
+    <string name="total_money_text">红包金额数: %s</string>
+    <string name="dialog_modify_text">回复内容</string>
+    <string name="dialog_cancel_text">取消</string>
+    <string name="dialog_confirm_text">确定</string>
+    <string name="package_counts_text">为您抢到红包</string>
+    <string name="package_total_money_text">红包金额共</string>
+    <string name="package_counts_unit">个</string>
+    <string name="package_total_money_unit">元</string>
+    <string name="input_phone_text">请输入要充值的号码</string>
+    <string name="input_phone_success_title">提交成功</string>
+    <string name="input_phone_success_content">我们将分为三个月进行话费反还，请注意查收！</string>
+    <string name="input_know">知道了</string>
+    <string name="text_download_url">下载地址：%s</string>
+
+    <string name="text_grab_status_opening">正在抢红包中...</string>
+    <string name="text_grab_status_stop">抢红包已暂停</string>
+
+    <!-- LogActivity-->
+    <string name="log_source_text">来源</string>
+    <string name="log_money_text">金额(元)</string>
+    <string name="log_nickname_text">昵称</string>
+    <string name="log_time_text">时间</string>
+
+    <string name="setting_type_name_0">开启微信抢红包</string>
+    <string name="setting_type_name_1">开启QQ抢红包</string>
+
+    <string name="setting_type_name_2">永久开启SVIP全部功能</string>
+    <string name="setting_type_name_3">抢红包加速</string>
+    <string name="setting_type_name_4">提高红包最佳概率</string>
+    <string name="setting_type_name_5">防封号模式</string>
+    <string name="setting_type_name_6">智能干扰竞争者</string>
+    <string name="setting_type_name_7">息屏抢红包</string>
+    <string name="setting_type_name_8">QQ口令红包</string>
+    <string name="setting_type_name_9">抢红包完自动回复</string>
+
+    <string name="setting_type_name_10">开启自动抢红包</string>
+    <string name="setting_type_name_11">开启提醒通知栏</string>
+    <string name="setting_type_name_12">开启音乐提示</string>
+    <string name="setting_type_name_13">自动返回聊天页</string>
+
+    <string name="upload_apk_title">提示</string>
+    <string name="upload_apk_reminder">非常好的一款的软件，是否创建下载任务？</string>
+    <string name="upload_create_title">下载</string>
+    <string name="upload_cancel_title">拒绝</string>
+
+    <!-- helper -->
+    <string name="helper_1">1.查看%1$s权限是否开启\n辅助功能列表找到“%2$s”\n点进去打开禁用按钮</string>
+    <string name="helper_2">        原因：某些系统内置了省电管理，性能优化清理等，或者你安装了手机管家，手机安全软件，设置了省电管理或者性能优化清理。\n\n通用解决方案：\n        将%1$s设置为后台保护（或者白名单等，因手机型号不同而不同），具体操作可百度搜索下“某某手机自动关闭应用软件”\n\n主流手机解决案例：\n\n    【华为】解决方案：\n进入手机系统【设置】——【省电管理】——点击【受保护应用】——将【%2$s】应用开启保护即可\n\n    【小米】解决方案：\n由于系统版本不同，小米的省电管理，性能优化清理设置比较繁琐，最直接的方法是：长按【Home】——【近期任务列表】——按住【%3$s】向下滑——【锁定%4$s】应用不被自动关闭\n\n    【魅族】解决方案：\n系统内置【安全中心】——【省电模式】——点击最右下方图标按钮——进入【待机耗电管理】——【保持%5$s运行按钮】</string>
+    <string name="helper_3">本软件仅供娱乐消遣，抢红包的速度取决于你手机的性能和网络，不涉及任何第三方软件接口，无病毒，不收集用户隐私信息，切勿使用本软件参与赌博活动，一切因使用“%1$s”造成的任何后果，“%2$s”概不负责，亦不承担任何法律责任！</string>
+
+    <string name="version_update_title">版本更新</string>
+    <string name="version_update_cancel_title">取消</string>
+    <string name="version_update_confirm_title">更新</string>
+    <string name="version_update_new_title">最新版本： %s</string>
+    <string name="version_update_note_title">更新内容： %s</string>
+    <string name="version_update_reminder_title">当前版本不可用！</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_white_bg">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享好友"
+        android:textColor="@color/white_30"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_86"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <ImageView
+        android:id="@+id/share_rcode"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/icon_rcode"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="（安卓用户发本页截图同样有效）"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textColor="@color/white_30"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="分享一次红包有几率提速50%"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="并且有 10% 的概率触发 SVIP"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="下载链接 ："
+            android:layout_gravity="center"
+            android:textColor="@color/white_30"/>
+
+        <TextView
+            android:id="@+id/share_download_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/share_action_button"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/white_100"
+        android:text="点击分享"
+        android:background="@drawable/round_red_button_bg"
+        android:layout_gravity="center"/>
+</LinearLayout>
