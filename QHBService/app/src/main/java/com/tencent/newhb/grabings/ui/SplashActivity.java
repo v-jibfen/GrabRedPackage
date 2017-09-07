@@ -13,12 +13,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.tencent.newhb.grabings.AppHelper;
 import com.tencent.newhb.grabings.BaseActivity;
+import com.tencent.newhb.grabings.Config;
+import com.tencent.newhb.grabings.Constants;
 import com.tencent.newhb.grabings.PageJumpHelper;
 import com.tencent.newhb.grabings.R;
 import com.tencent.newhb.grabings.custom.CustomCountDownTimer;
 import com.tencent.newhb.grabings.util.ApkDownloadUtils;
 import com.tencent.newhb.grabings.util.JavaUtils;
+import com.tencent.newhb.grabings.util.SharePreferenceHelper;
+import com.umeng.analytics.MobclickAgent;
 
 public class SplashActivity extends BaseActivity {
 

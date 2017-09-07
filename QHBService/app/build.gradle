@@ -26,16 +26,16 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("newhb.jks")
+            storeFile file("shenxian.jks")
             storePassword '123456'
-            keyAlias '1'
+            keyAlias 'shenxian'
             keyPassword '123456'
         }
     }
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
@@ -95,6 +95,7 @@ dependencies {
     compile 'kr.pe.burt.android.lib:faimageview:0.0.6'
     // 多dex配置
     compile 'com.android.support:multidex:1.0.1'
+    compile 'com.umeng.analytics:analytics:latest.integration'
 }
 
 //def gitSha() {

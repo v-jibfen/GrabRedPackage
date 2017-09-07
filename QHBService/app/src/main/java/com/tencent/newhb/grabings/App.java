@@ -10,6 +10,7 @@ import android.support.multidex.MultiDexApplication;
 import android.widget.Toast;
 
 import com.tencent.newhb.grabings.util.SharePreferenceHelper;
+import com.umeng.analytics.MobclickAgent;
 
 public class App extends MultiDexApplication {
     private static App _app;
@@ -32,7 +33,8 @@ public class App extends MultiDexApplication {
 
         SharePreferenceHelper.saveSharePreferenceFromString(this, Config.APP_CONFIG,
                 Config.APP_DEVICE_ID, AppHelper.getUniqueId(this));
-
+        MobclickAgent.onProfileSignIn(SharePreferenceHelper.getSharePreferenceFromString(this,
+                Config.APP_CONFIG, Config.APP_DEVICE_ID));
         //注册广播接收器，用户网络请求是弹出Toast
         IntentFilter intentFilter = new IntentFilter(Constants.SHOW_TOAST);
         registerReceiver(_broadcastReceiver, intentFilter);

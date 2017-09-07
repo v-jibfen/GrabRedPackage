@@ -22,7 +22,7 @@
             android:name="BUILD_TIME"/>
 
         <meta-data
-            android:value="Dev"
+            android:value="anzhi"
             android:name="UMENG_CHANNEL"/>
 
         <activity
@@ -68,7 +68,7 @@
                 android:resource="@xml/qianghongbao_service_config" />
         </service>
 
-        <meta-data android:name="UMS_APPKEY" android:value="6a7ced85d4bf53bb538c060a7d4bce8e"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="59b10879aed179706000038b"/>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
