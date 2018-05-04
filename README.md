@@ -1,2 +1,2 @@
 # GrabRedPackage
-Grab Weichat and QQ red package.
+Grab Wechat and QQ red package.
